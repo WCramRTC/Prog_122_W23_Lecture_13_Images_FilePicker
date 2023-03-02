@@ -1,0 +1,21 @@
+﻿<Window x:Class="Prog_122_W23_Lecture_13_Images_FilePicker.Notes.ImageExample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prog_122_W23_Lecture_13_Images_FilePicker.Notes"
+        mc:Ignorable="d"
+        Title="ImageExample" Height="450" Width="800" Background="#FF6CADC3">
+    <Canvas>
+        <Canvas Height="317" Width="273" Canvas.Left="44" Canvas.Top="59" HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FFECECEC">
+            <Label Content="File Location" Canvas.Left="18" Canvas.Top="100"/>
+            <TextBox Canvas.Left="18" TextWrapping="NoWrap" Canvas.Top="131" Width="157" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Button x:Name="btnSelectFile" Content="Location" Canvas.Left="189" Canvas.Top="130" HorizontalAlignment="Left" VerticalAlignment="Top" Width="61"/>
+            <Button x:Name="btnLoadMochi" Content="Load Image of Evil" Canvas.Left="36" Canvas.Top="31" HorizontalAlignment="Center" VerticalAlignment="Top" Width="202" Height="45" Click="btnLoadMochi_Click"/>
+            <Button x:Name="btnLoadImage" Content="Load Image" Canvas.Left="18" Canvas.Top="169" HorizontalAlignment="Center" VerticalAlignment="Top" Width="232" Height="33"/>
+            <Button x:Name="btnGreyScale" Content="GreyScale" Canvas.Left="18" Canvas.Top="225" Height="38" Width="232"/>
+        </Canvas>
+        <Image Height="320" Canvas.Left="395" Canvas.Top="51" Width="335"/>
+
+    </Canvas>
+</Window>
